@@ -1,11 +1,20 @@
-*{
+/* *{
     background-color: beige;
-}
+} */
 h1{
    color: cadetblue; 
 }
 img{
     height: 120px;
     width: 120px;
+}
+.Data-science{
+    color:rgb(122, 122, 185);
 
+}
+.Own{
+    background-color: azure;
+}
+.Likes{
+    background-color: aquamarine;
 }
