@@ -1,6 +1,10 @@
 /* *{
     background-color: beige;
 } */
+ *{
+    margin:0;
+    padding:0;
+ }
 h1{
    color: cadetblue; 
 }
@@ -17,4 +21,28 @@ img{
 }
 .Likes{
     background-color: aquamarine;
+}
+#sample{
+    background-color: burlywood;
+    /* border-color:40px rgba(0, 0, 0, 0.041) solid; */
+    border: 2px red dotted;
+}
+.Box{
+    border-style: dotted;
+    margin:10px 15px;
+    padding: 30px;
+    background-color: antiquewhite;
+}
+
+
+/* My flexbox properties */
+.container{
+    background-color: rgb(223, 235, 235);
+}
+.child{
+    background-color: antiquewhite;
+    display: flex;
+    /* flex-direction: row;
+    gap: 50px; */
+    justify-content: space-between;
 }
