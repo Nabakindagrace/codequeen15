@@ -1,48 +1,75 @@
 /* *{
     background-color: beige;
 } */
- *{
-    margin:0;
-    padding:0;
- }
-h1{
-   color: cadetblue; 
+* {
+  margin: 0;
+  padding: 0;
 }
-img{
+h1 {
+  color: cadetblue;
+}
+/* img{
     height: 120px;
     width: 120px;
 }
 .Data-science{
     color:rgb(122, 122, 185);
 
+} */
+.Own {
+  background-color: azure;
 }
-.Own{
-    background-color: azure;
+.Likes {
+  background-color: aquamarine;
 }
-.Likes{
-    background-color: aquamarine;
+#sample {
+  background-color: burlywood;
+  /* border-color:40px rgba(0, 0, 0, 0.041) solid; */
+  border: 2px red dotted;
 }
-#sample{
-    background-color: burlywood;
-    /* border-color:40px rgba(0, 0, 0, 0.041) solid; */
-    border: 2px red dotted;
+.Box {
+  border-style: dotted;
+  margin: 10px 15px;
+  padding: 30px;
+  background-color: antiquewhite;
 }
-.Box{
-    border-style: dotted;
-    margin:10px 15px;
-    padding: 30px;
-    background-color: antiquewhite;
-}
-
 
 /* My flexbox properties */
-.container{
-    background-color: rgb(223, 235, 235);
+.Container {
+  background-color: rgb(223, 235, 235);
 }
-.child{
-    background-color: antiquewhite;
-    display: flex;
-    /* flex-direction: row;
+.child {
+  background-color: antiquewhite;
+  display: flex;
+  /* flex-direction: row;
     gap: 50px; */
-    justify-content: space-between;
+  justify-content: space-between;
+}
+
+section {
+  padding: 60px 0;
+}
+.hero-section {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #eaeef1 !important;
+}
+.pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  overflow: hidden; /* This crops the edges */
+  border: 2px solid #98c4bc; /* Matching your purple brand color */
+}
+.social-icon{
+    color: rgb(14,10,235); /* Matches your "Follow me" text color */
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+.back{
+    background-color: #98c4bc;
 }

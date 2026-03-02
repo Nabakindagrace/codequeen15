@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-sm sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">GRACE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home" class="hero-section text-center">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Hello, I'm Grace</h1>
+        <h3 class="lead mb-4">
+          A passionate Web Developer student at Code Queen.
+        </h3>
+        <a href="#projects" class="btn btn-outline-success btn-lg px-4 shadow"
+          >View My Work</a
+        >
+      </div>
+    </header>
+
+    <section id="about" class="container back">
+      <div class="row align-items-center">
+        <div class="col-md-5 text-center mb-4 mb-md-0">
+          <img
+            class="pic"
+            src="images/1.jpg"
+            class="custom rounded-circle shadow"
+            alt="Profile Image"
+          />
+        </div>
+        <div class="col-md-7">
+          <h2 class="fw-bold mb-3">About Me</h2>
+          <p>
+            I am currently doing a web development course at
+            <strong>CodeQueen</strong>. I'm excited about the journey so far and
+            can't wait to master HTML, CSS, and Bootstrap to build beautiful
+            digital experiences.
+          </p>
+          <p>
+            When I'm not coding, you can find me exploring new tech trends and
+            connecting with the developer community.
+          </p>
+          <p style="color: rgb(14, 10, 235)">Follow me</p>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/nabakinda-grace-a6b337241/"
+              target="_blank"
+              class="me-3 social-icon"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/dashboard"target="_blank" class="me-3 social-icon">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5">My Projects</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <img
+                src="images/2.jpg"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">HTML Basics</h5>
+                <p class="card-text">
+                  My first project learning the structure of the web using
+                  semantic tags.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <img
+                src="images/4.jpg"
+                class="card-img-top"height=120px;
+                alt="Project 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">CSS Styling</h5>
+                <p class="card-text">
+                  Exploring colors, fonts, and layouts to make pages visually
+                  appealing.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <img
+                src="images/6.jpg"
+                class="card-img-top"height=120px;
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Bootstrap Portfolio</h5>
+                <p class="card-text">
+                  Using the Bootstrap grid system to create a mobile-responsive
+                  site.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container back">
+      <div class="row justify-content-center back">
+        <div class="col-md-6">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Contact Me</h2>
+            <p class="text-muted">Have a question? Feel free to reach out!</p>
+          </div>
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" placeholder="Your Name" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                rows="4"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white text-center">
+      <div class="container">
+        <p class="mb-0">&copy; 2026 Grace. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
