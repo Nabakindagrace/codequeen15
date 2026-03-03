@@ -70,6 +70,22 @@ section {
     transition: transform 0.3s ease, color 0.3s ease;
     display: inline-block;
 }
-.back{
-    background-color: #98c4bc;
+.back {
+    background-color: #e9f5ec !important; 
+    padding: 60px 20px;
+    border-radius: 15px; 
 }
+.big{
+  background-color: #f0f4f8;
+  padding: 60px 20px;
+  border-radius: 15px; 
+}
+.project-card{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important; /
+}
+
+.project-card:hover {
+    transform: translateY(-10px); 
+    shadow: 0 1rem 3rem rgba(0,0,0,.175) !important; /* Makes the shadow larger/darker */
+    border: 1px solid #0f0f0f !important;
